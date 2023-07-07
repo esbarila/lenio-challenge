@@ -1,0 +1,64 @@
+
+> lenio-challenge@1.0.0 test
+> npx cypress run cypress/e2e/happyPathLogin.cy.js
+
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        12.16.0                                                                        │
+  │ Browser:        Electron 106 (headless)                                                        │
+  │ Node Version:   v18.16.1 (/home/stiva/.nvm/versions/node/v18.16.1/bin/node)                    │
+  │ Specs:          1 found (happyPathLogin.cy.js)                                                 │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  happyPathLogin.cy.js                                                            (1 of 1)
+
+
+  lenio challenge
+    ✓ Succesful login to opensource-demo (24199ms)
+
+
+  1 passing (24s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     24 seconds                                                                       │
+  │ Spec Ran:     happyPathLogin.cy.js                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started compressing: Compressing to 32 CRF                                                     
+  -  Finished compressing: 1 second                                                  
+
+  -  Video output: /home/stiva/code/lenio-challenge/cypress/videos/happyPathLogin.cy.js.mp4
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  happyPathLogin.cy.js                     00:24        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:24        1        1        -        -        -  
+

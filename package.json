@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run cypress/e2e/lenio.cy.js"
+    "test": "npx cypress run cypress/e2e/happyPathLogin.cy.js",
+    "test-headed": "npx cypress run cypress/e2e/happyPathLogin.cy.js --headed"
   },
   "keywords": [],
   "author": "",

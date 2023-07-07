@@ -4,13 +4,10 @@ describe('lenio challenge', () => {
     })
 
     it('Succesful login to opensource-demo', ()=> {
-        cy.get('input[name="username"]').type('Admin');
+        cy.get('input[name="username"]').type('Admin'); // Abstracted away as env vars in page-object models.
         cy.get('input[name="password"]').type('admin123');
-        cy.get('button[type="submit"]').click();
-        cy.login(user, password)
-        
+        cy.get('button[type="submit"]').click();        
         cy.url().should('include', 'web/index.php/dashboard/index');
         cy.contains('Dashboard');
-    })
-    
+    })    
 })
