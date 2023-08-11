@@ -8,7 +8,11 @@
     "test-headed": "npx cypress run cypress/e2e/happyPathLogin.cy.js --headed"
   },
   "keywords": [],
-  "author": "",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esbarila/lenio-challenge.git"
+  },
+ "author": "esbarila",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.16.0"
